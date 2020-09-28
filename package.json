@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "",
+    "appType": "app",
+    "appDisplayName": "Counter",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ff5722",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Counter"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

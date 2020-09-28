@@ -1,0 +1,10 @@
+<svg>
+  <use href="#app-gradient-background" class="app-gradient-background application-fill" apply-style="at-use">
+    <svg>
+      <use id="plus-button" href="#icon-button" class="medium-button application-fill plus-button" />
+      <text id="counter" class="h1 center-text" x="50%" y="30%">0</text>
+      <use id="minus-button" href="#icon-button" class="medium-button application-fill plus-button" />
+      <use id="reset-button" href="#text-button" class="text-button secondary application-fill" />
+    </svg>
+  </use>
+</svg>

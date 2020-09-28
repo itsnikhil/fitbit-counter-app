@@ -1,0 +1,47 @@
+/* Default Styling */
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+.application-fill           { fill: fb-orange; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+/* Typography sizes */
+.h1  { font-size: 80; line-increment: 100; font-weight: bold;}
+.h2  { font-size: 50; line-increment: 60;  font-weight: bold;}
+.h3  { font-size: 34; line-increment: 42;  font-weight: bold; font-step-size: 4; min-font-size: 24; }
+.h4  { font-size: 28; line-increment: 34;  font-weight: bold; font-step-size: 4; min-font-size: 24; }
+.h5  { font-size: 22; line-increment: 26;  font-weight: bold;}
+
+.p1  { font-size: 34; line-increment: 42; font-step-size: 4; min-font-size: 24; }
+.p2  { font-size: 28; line-increment: 34; font-step-size: 4; min-font-size: 24; }
+.p3  { font-size: 22; line-increment: 26; }
+
+/* Helpers */
+.stack-gap                       { y: $+6; }
+.center-text                     { text-anchor: middle; display-align: center; }
+.horizontal-pad                  { x: 18; width: 100%-36; }
+.horizontal-pad-header           { x: 30; width: 100%-60; }
+.touch-area                      { width: 100%; height: 100%; opacity: 0;}
+.full-size                       { x: 0; y: 0; width: 100%; height: 100%; }
+
+
+#reset-button #text { text-buffer: "RESET"; }
+#plus-button #image { href: "plus.png"; }
+#minus-button #image { href: "minus.png"; }
+
+#minus-button {
+  x: 10%;
+  y: 40%;
+}
+
+#plus-button {
+  x: 70%;
+  y: 40%;
+}
+
+#counter { text-length: 8; }
+
